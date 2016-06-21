@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnconver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtyear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Convert"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/txtyear"
+        android:layout_width="@dimen/edittext_w"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:hint="input year"
+        android:inputType="number"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtlunardate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnconver"
+        android:layout_centerHorizontal="true"
+        android:text="Lunar year"
+        android:textColor="@color/red"
+        android:typeface="serif" />
+
+
+</RelativeLayout>
